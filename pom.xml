@@ -93,6 +93,13 @@
 			<scope>test</scope>
 		</dependency>
 
+
+		<!-- Base de datos en memoria solo para las pruebas (en ejecucion se usa MariaDB) -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
